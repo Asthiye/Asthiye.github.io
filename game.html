@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="homework.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GAME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+      body{
+        background-image:url("background.png")
+      }
+          .intro{
+            color: white;
+            text-align: center;
+          }
+       .button{
+         background-color:brown;
+         color:white;
+         padding:10px 50px;
+         text align:center;
+         border-color: brown;
+         font-size:16px;
+       }
+      </style>
+  </head>
+  <body>
+      <h1 style="font-size:250%;text-align:center;color:white;">Guess Which Singer's Album?</h1>
+     <p class="intro">
+       <b>
+       Here are six albums of different Chinese singer.<br>
+       Can you guess who they are?<br>
+       Write down your answers now!<br>
+       </b>
+      </p>
+    <div style="text-align:center;">
+     <button onclick="tips()" style="background:white;width: 200px;height: 40px;color:black;border-color:brown"><b>click to get some tips</b></button>
+     </div>
+    <br>
+    <div style="text-align:center;">
+     <img id="image1" src="zhoujielun.png" width="200px;height=200px;">
+     <img id="image2" src="linjunjie.jpeg" width="200px;height=200px;">
+      <img id="image3" src="aiyiliang.jpeg" width="200px;height=200px;">
+    </div>
+
+    <div style="text-align:center;">
+    <button onclick="answer1()" class="button"><b>answer One</b></button>
+    <button onclick="answer2()" class="button"><b>answer Two</b></button>
+    <button onclick="answer3()" class="button"><b>answer Three</b></button>
+    </div>
+    <br><br>
+
+    <div style="text-align:center;">
+     <img id="image4" src="yanghesu.png" width="200px;height=200px;">
+     <img id="image5" src="wangxinling.jpeg" width="200px;height=200px;">
+      <img id="image6" src="linyilian.jpeg" width="200px;height=200px;">
+    </div>
+
+    <div style="text-align:center;">
+    <button onclick="answer4()" class="button"><b>answer Four</b></button>
+    <button onclick="answer5()" class="button"><b>answer Five</b></button>
+    <button onclick="answer6()" class="button"><b>answer Six</b></button>
+    </div>
+   <br>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
